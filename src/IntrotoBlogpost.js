@@ -20,7 +20,7 @@ function IntrotoBlogpost() {
       </p>
       <p>
        I absolutely love to be creative, and find that full stack design and development fits that interest very well! 
-       I also have quite a few other interests. Creative writing, soap and candle crafting, and music, are just to name a few of them. 
+       I also have quite a few other interests. Creative writing, soap and candle crafting, and painting, are just to name a few of them. 
        I am an old school gamer, which means I love Super Mario, Donkey Kong, Minecraft, The Sims, Harry Potter games...etc. My
        family came for the December holidays in 2020 and I chose to treat myself and get a Nintendo Switch as I had given ours up in 
        my very recent divorce. It was a lot of fun to have all of my family here for the holidays as that is a rare occasion, 
