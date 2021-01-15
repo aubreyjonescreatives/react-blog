@@ -111,13 +111,18 @@ Nav {
   height: 50px; }
   Nav li {
     float: left;
+    text-decoration: none;
     list-style-type: none;
     width: 25%;
     padding: 15px;
     color: #ffffff; }
+    Nav li a:link {
+      text-decoration: none;
+      color: #ffffff; }
     Nav li a:hover {
       background-color: #4B0082;
-      width: 100%; }
+      width: 100%;
+      padding: 15px; }
 
 /* ------------------------MAIN----------------------------- */
 /* ------------------------ABOUT ME----------------------------- */
