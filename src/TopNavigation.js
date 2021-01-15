@@ -8,10 +8,10 @@ function TopNavigation() {
     return (
      
       <nav className="Nav">
-      <li><a>ABOUT ME</a></li>  
-      <li><a>RESEARCH AND LEARNING</a></li>  
-      <li><a>GIT</a></li>  
-      <li><a>UNIT TESTING</a></li>  
+      <li><a href="#">ABOUT ME</a></li>  
+      <li><a href="#">RESEARCH AND LEARNING</a></li>  
+      <li><a href="#">GIT</a></li>  
+      <li><a href="#">UNIT TESTING</a></li>  
       </nav>  
      
     
