@@ -9,7 +9,7 @@ function IntrotoBlogpost() {
      
      <div class="main-1">
     <h1>ABOUT ME</h1>
-     <figure className="Me"> <img src={Me} alt="Aubrey Jones About Me Photo"></img></figure>
+     <figure className="Me"> <img src={Me} alt="Aubrey Jones About Me"></img></figure>
      </div>
     
     );
