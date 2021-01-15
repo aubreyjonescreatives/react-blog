@@ -9,13 +9,14 @@ function IntrotoBlogpost() {
      
      <div class="main-1">
     <h1>ABOUT ME</h1>
-     <p><figure className="Me"> <img src={Me} alt="Aubrey Jones About Me"></img></figure>Welcome to my About Page! My name is Aubrey Jones. I am currently employed at Trilogy Educational 
+     <p><figure className="Me"> <img src={Me} alt="Aubrey Jones About Me"></img></figure>Welcome to my About Page! 
+     My name is Aubrey Jones. I am almost 28-year-old in a few weeks, and currently employed at Trilogy Educational 
        Services as a UX/UI Designer TA at their University of Utah's UX/UI Design bootcamp. It's a great job 
        that works fantastic with my school schedule. I also love that I get to thoroughly learn and help
-       teach UX/UI design concepts to others at the same time. I began my UX/UI journey in 2016, 
+       teach UX/UI design concepts to others at the same time. I began my UX/UI journey part time in 2016, 
        after completing my general studies at Salt Lake Community College for my associates degree. I had a wonderful 
-       2 year internship where I could dibble and dabble in a lot of skills related to my degree at Utah Valley University.
-      I plan to  major in Web Design and Development with an emphasis in Web and App Development, and graduate at UVU 
+       2 year internship where I could dibble and dabble in a lot of skills related to my major, which is
+      Web Design and Development with an emphasis in Web and App Development. I will graduate at Utah Valley University 
       this year in Fall 2021. 
       </p>
       <p>
