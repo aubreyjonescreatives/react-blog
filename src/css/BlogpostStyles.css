@@ -125,12 +125,18 @@ Nav {
   margin: 50px; }
   .main-1 h1 {
     float: left;
-    margin: 20px;
-    font-size: 26px; }
-  .main-1 .Me {
+    margin: 40px 10px;
+    font-size: 42px; }
+  .main-1 p {
     clear: both;
-    float: left;
-    margin: 10px; }
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 25px;
+    text-align: left; }
+    .main-1 p .Me {
+      clear: both;
+      float: left;
+      margin: 0px 10px; }
 
 /* ------------------------FOOTER----------------------------- */
 div#wrapperFooter {
