@@ -7,7 +7,7 @@ import Me from './images/Me.jpg'
 function IntrotoBlogpost() {
     return (
      
-     <div class="main-1">
+     <div class="main-1" id="aboutme">
     <h1>ABOUT ME</h1>
      <p><figure className="Me"> <img src={Me} alt="Aubrey Jones About Me"></img></figure>Welcome to my About Page! 
      My name is Aubrey Jones. I am almost 28-year-old in a few weeks, and currently employed at Trilogy Educational 
