@@ -127,6 +127,12 @@ Nav {
       color: #ffffff; }
 
 /* ------------------------MAIN----------------------------- */
+figure.images {
+  width: 100%; }
+
+figure.images img {
+  width: 100%; }
+
 /* ------------------------ABOUT ME----------------------------- */
 .main-1 {
   margin: 50px; }

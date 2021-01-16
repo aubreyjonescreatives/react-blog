@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/BlogpostStyles.css'
-import Me from './images/Me.jpg'
+import researchImage from './images/researchandlearningimage.jpg'
 
 
 
@@ -9,6 +9,7 @@ function ResearchandLearning() {
      
      <div class="main-1" id="researchandlearning">
     <h1>RESEARCH AND LEARNING</h1>
+    <figure class="images"><img src={researchImage} alt="Research"></img></figure>
      <p>
       When I get stuck on a project, I first research my favorite web programming websites online for answers to my problems. I don't like 
       to copy code, especially from tutorials because I often don't find exactly what I am looking for, and design my pages differently. 
