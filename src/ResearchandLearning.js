@@ -14,8 +14,8 @@ function ResearchandLearning() {
       to copy code, especially from tutorials because I often don't find exactly what I am looking for, and design my pages differently. 
       My favorite websites for example code are W3 Schools and MDN. I prefer frameworks such as Material UI and Bootstrap, but I still end up 
       customizing that code to fit my programming style. One of my favorite tips and tricks when styling my websites is to use the website, 
-      coolors.co to find a complementary palette. I absolutely love tos style and organize my designs with SCSS, and find it very effective for 
-      responsive website design. Plus, SCSS is a very easy way to make a website your own.   
+      coolors.co to find a complementary palette. I absolutely love to style and organize my designs with SCSS, and find it very effective for 
+      responsive website design. Plus, SCSS is a very easy way to make a website mine.   
       </p>
       <p>
        If I want to solve a problem or see example code, I sometimes research the web for tutorials. But I often have a very specific problem to solve, 
