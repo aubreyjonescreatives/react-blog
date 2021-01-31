@@ -150,6 +150,10 @@ figure.images img {
       clear: both;
       float: left;
       margin: 0px 10px; }
+    .main-1 p .gitImage {
+      clear: both;
+      float: left;
+      margin: 0px 10px; }
 
 /* ------------------------FOOTER----------------------------- */
 div#wrapperFooter {
