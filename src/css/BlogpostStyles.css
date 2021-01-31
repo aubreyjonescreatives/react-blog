@@ -133,6 +133,13 @@ figure.images {
 figure.images img {
   width: 100%; }
 
+figure.gitImage {
+  width: 50%; }
+
+figure.gitImage img {
+  width: 100%;
+  float: right; }
+
 /* ------------------------ABOUT ME----------------------------- */
 .main-1 {
   margin: 50px; }
