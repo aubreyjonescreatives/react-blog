@@ -140,13 +140,6 @@ figure.gitImage img {
   width: 100%;
   float: right; }
 
-figure.unitImage {
-  width: 50%; }
-
-figure.unitImage img {
-  width: 100%;
-  float: left; }
-
 /* ------------------------ABOUT ME----------------------------- */
 .main-1 {
   margin: 50px; }
@@ -167,6 +160,10 @@ figure.unitImage img {
     .main-1 p .gitImage {
       clear: both;
       float: left;
+      margin: 0px 10px; }
+    .main-1 p .unitImage {
+      clear: both;
+      float: right;
       margin: 0px 10px; }
 
 /* ------------------------FOOTER----------------------------- */
