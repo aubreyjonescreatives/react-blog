@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/BlogpostStyles.css'
-import GitImage from './images/gitimage.PNG'
+import unitTesting from './images/unittesting.PNG'
 
 
 
@@ -9,7 +9,7 @@ function UnitTesting() {
      
      <div class="main-1" id="unittesting">
     <h1>UNIT TESTING</h1>
-     <p><figure className="gitImage"> <img src={GitImage} alt="Unit Testing"></img></figure>
+     <p><figure className="unitImage"> <img src={unitTesting} alt="Unit Testing"></img></figure>
      What is a unit? Think about all of the letters and numbers combined together to create a 
      programming language. Each individual letter and number is a unit. You got it. A unit is the smallest 
      isolated logical piece of code. For example, it could be a variable i for an integer inside a for loop. 
