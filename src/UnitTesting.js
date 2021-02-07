@@ -13,7 +13,9 @@ function UnitTesting() {
      What is a unit? 
     
     
-     What is unit testing? 
+     What is unit testing? I find it easy to understand unit testing by taking units of code and testing their 
+     use of that code to see if it works. We can test a unit as simple as a single variable integer or several 
+     snippets of code at a time.   
 
     
       </p>
