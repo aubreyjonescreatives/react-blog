@@ -6,8 +6,9 @@ import typeScriptImage from './images/typescript.PNG'
 
 function TypeScript() {
     return (
-     
+
      <div class="main-1" id="typescript">
+       <div className="EmptyTop"></div>
     <h1>TYPESCRIPT</h1>
      <p><figure className="tsImage"> <img src={typeScriptImage} alt="TypeScript"></img></figure>
      What comes to mind when you think about the TypeScript programming language? JavaScript? If you read up on the 

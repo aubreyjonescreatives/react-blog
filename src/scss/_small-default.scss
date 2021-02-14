@@ -24,9 +24,15 @@ body{
 /* ------------------------HEADER----------------------------- */
 
 header {
+position: fixed; 
+top: 0; 
 font-size: 32px; 
 padding: 20px; 
 color: $secondaryColor; 
+background-color: white; 
+width: 100%; 
+text-align: center; 
+margin-top: 0px; 
 
 }
 
@@ -46,7 +52,9 @@ color: $secondaryColor;
 
 
 
-Nav {
+Nav { 
+position: fixed; 
+top: 70px; 
 width: 100%; 
 background-color: $secondaryColor; 
 height: 50px; 
@@ -117,6 +125,11 @@ figure.gitImage img {width: 100%; float: right;}
 
 .main-1 {
 margin: 50px; 
+
+
+.EmptyTop {
+    padding: 50px; 
+}
 
 h1 {
 float: left; 

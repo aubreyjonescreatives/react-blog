@@ -99,13 +99,21 @@ body {
 
 /* ------------------------HEADER----------------------------- */
 header {
+  position: fixed;
+  top: 0;
   font-size: 32px;
   padding: 20px;
-  color: #429EA6; }
+  color: #429EA6;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 0px; }
 
 /* ------------------------END HEADER----------------------------- */
 /* ------------------------ENDTOPNAV----------------------------- */
 Nav {
+  position: fixed;
+  top: 70px;
   width: 100%;
   background-color: #429EA6;
   height: 50px; }
@@ -143,6 +151,8 @@ figure.gitImage img {
 /* ------------------------ABOUT ME----------------------------- */
 .main-1 {
   margin: 50px; }
+  .main-1 .EmptyTop {
+    padding: 50px; }
   .main-1 h1 {
     float: left;
     margin: 40px 10px;
