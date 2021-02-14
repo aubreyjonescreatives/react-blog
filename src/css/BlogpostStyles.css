@@ -113,8 +113,8 @@ Nav {
     float: left;
     text-decoration: none;
     list-style-type: none;
-    width: 25%;
-    padding: 15px;
+    width: 15%;
+    padding: 15px 5px;
     color: #ffffff; }
     Nav li a:link {
       text-decoration: none;
@@ -122,7 +122,7 @@ Nav {
     Nav li a:hover {
       background-color: #4B0082;
       width: 100%;
-      padding: 15px; }
+      padding: 15px 5px; }
     Nav li a:visited {
       color: #ffffff; }
 

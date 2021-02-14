@@ -55,8 +55,8 @@ li  {
 float: left; 
 text-decoration: none; 
 list-style-type: none; 
-width: 25%; 
-padding: 15px; 
+width: 15%; 
+padding: 15px 5px; 
 color: $fontColor; 
 
 a:link {
@@ -68,7 +68,7 @@ color: $fontColor;
 a:hover {
 background-color: $primaryColor; 
 width: 100%;  
-padding: 15px; 
+padding: 15px 5px; 
     
     
     
