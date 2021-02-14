@@ -165,6 +165,11 @@ figure.gitImage img {
       clear: both;
       float: right;
       margin: 0px 10px; }
+    .main-1 p .tsImage {
+      clear: both;
+      float: right;
+      margin: 0px 10px;
+      border: 1px solid grey; }
 
 /* ------------------------FOOTER----------------------------- */
 div#wrapperFooter {
