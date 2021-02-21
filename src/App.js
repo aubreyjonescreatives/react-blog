@@ -5,6 +5,7 @@ import ResearchandLearning from './ResearchandLearning'
 import Git from './Git'
 import UnitTesting from './UnitTesting'
 import TypeScript from './TypeScript'
+import NPM from './NPM'
 import TopNavigation from './TopNavigation'
 import Header from './Header'
 import HeroImage from './HeroImage'
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
     <Header/>
     <TopNavigation/>
+    <NPM/>
     <TypeScript/>
     <UnitTesting/>
     <Git/>

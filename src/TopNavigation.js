@@ -8,6 +8,7 @@ function TopNavigation() {
     return (
      
       <nav className="Nav">
+          <li><a href="#npm">NPM</a></li> 
            <li><a href="#typescript">TYPESCRIPT</a></li> 
          <li><a href="#unittesting">UNIT TESTING</a></li> 
           <li><a href="#git">GIT</a></li>  
