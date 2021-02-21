@@ -8,7 +8,7 @@ import TypeScript from './TypeScript'
 import NPM from './NPM'
 import TopNavigation from './TopNavigation'
 import Header from './Header'
-import HeroImage from './HeroImage'
+
 
 function App() {
   return (
