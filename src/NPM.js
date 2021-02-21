@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/BlogpostStyles.css'
-import typeScriptImage from './images/typescript.PNG'
+import npmImage from './images/npmImage.PNG'
 
 
 
@@ -10,7 +10,7 @@ function npm() {
      <div class="main-1" id="npm">
        <div className="EmptyTop"></div>
     <h1>NPM</h1>
-     <p><figure className="tsImage"> <img src={typeScriptImage} alt="TypeScript"></img></figure>
+     <p><figure className="npmImage"> <img src={npmImage} alt="NPM"></img></figure>
      What is NPM? It is an acronym that stands for node package management. It is a command-line utility that 
      allows developers to add javascript code from other developers to their projects. Think about 
      a coding project as a book. We want to publish this book and have it available in bookstores. 
