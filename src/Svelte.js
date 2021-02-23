@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/BlogpostStyles.css'
-import npmImage from './images/npmImage.PNG'
+import svelteImage from './images/svelteImage.PNG'
 
 
 
@@ -10,12 +10,12 @@ function Svelte() {
      <div class="main-1" id="svelte">
        <div className="EmptyTop"></div>
     <h1>Svelte</h1>
-     <p><figure className="svelteImage"> <img src={npmImage} alt="Svelte"></img></figure>
+     <p><figure className="svelteImage"> <img src={svelteImage} alt="Svelte"></img></figure>
       It is interesting how React.js becomes problematic while working with the virtual DOM libraries. 
       Instead of executing a simple math problem of 1 + 1 and committing it to memory, it has to  
       repeat all of the steps every single time a computer activates its code. Rich Harris in his 
       You Gotta Love Frontend Code Camp 2019 conference talk called Rethinking Reactivity goes into detail about this. 
-      He says React is therefore not reactive and a poor title for the programming language. 
+      He explains, "React is therefore not reactive and a poor title for the programming language." 
       This can become problematic with certain types of development needs.  
       </p>
       <p>
@@ -23,7 +23,7 @@ function Svelte() {
       not tools for organizing your code. They are tools for organizing your mind...compilers are the new framework." 
       Harris therefore created a solution call Svelte. He continues, "It takes your declarative components and then 
       it turns it into imperative efficient low level code that manipulates the DOM directly." Old Svelte is a lot like 
-      old React when it comes to this.set and this.get. But unfortunately as soon as we introduce this to both sets of 
+      old React when it comes to this.set and this.get. But unfortunately as soon as we introduce .this to both sets of 
       frameworks, the code connects to all sorts of constraints. Harris created a solution to this (pun intended) as he 
       found out he could input .change instead of .this. in Svelte, because Svelte is a compiler.   
         </p>
