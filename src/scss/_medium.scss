@@ -1,10 +1,16 @@
 
- nav, main {max-width: 1800px; margin: 0 auto;}
+ header, nav, .main-1 {max-width: 1800px; margin: 0 auto;}
 
 
 
 /* ------------------------HEADER----------------------------- */
 
+header {
+    background-color: $fontColor; 
+    width: 100%; 
+    
+    }
+    
 
 
 /* ------------------------NAV----------------------------- */
@@ -14,13 +20,38 @@
 /*-------------------- MAIN ------------------------------ */
 
 
-main {
+.main-1 {
 
 
- 
-figure.myImage {width: 100%;}
-figure.myImage img {width: 33%; padding: 10px;}
- 
+    figure.svelteImage {width: 100%;}
+    figure.svelteImage img {width: 47%; margin: 10px; float: left;}
+     
+    
+    figure.npmImage {width: 100%;}
+    figure.npmImage img {width: 47%; margin: 10px; float: right; }
+     
+    
+    
+    
+    figure.tsImage {width: 100%;}
+    figure.tsImage img {width: 47%; margin: 10px; float: left; border: 1px solid $primaryColor; }
+     
+    
+    
+    figure.unitImage {width: 100%;}
+    figure.unitImage img {width: 47%; margin: 10px; float: right;}
+     
+    
+    
+    
+    figure.gitImage {width: 100%;}
+    figure.gitImage img {width: 47%; margin: 10px; float: left;}
+    
+    
+    figure.rlImage {width: 100%;}
+    figure.rlImage img {width: 47%; margin: 10px; float: right;}
+     
+     
    
     
 

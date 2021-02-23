@@ -10,7 +10,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%}
 
  /* -----------------------BODY ------------------------------- */ 
 
-header, nav, main, footer {max-width: 1500px; font-family: "lato";}
+header, nav, .main-1, footer {max-width: 640px; font-family: "lato";}
 
 
 
@@ -57,15 +57,16 @@ position: fixed;
 top: 70px; 
 width: 100%; 
 background-color: $secondaryColor; 
-height: 50px; 
+height: 70px; 
 
 li  { 
 float: left; 
 text-decoration: none; 
 list-style-type: none; 
-width: 15%; 
-padding: 15px 5px; 
+width: 14%; 
+padding: 20px 1px 20px 1px; 
 color: $fontColor; 
+font-size: 12px; 
 
 a:link {
 text-decoration: none; 
@@ -73,20 +74,22 @@ color: $fontColor;
 
 }
 
-a:hover {
-background-color: $primaryColor; 
-width: 100%;  
-padding: 15px 5px; 
-    
-    
-    
-}
 
 a:visited {
 color: $fontColor;     
 }
 
 }
+
+
+li a:hover {
+    background-color: $primaryColor; 
+    width: 100%;  
+    padding: 20px 1px 20px 1px; 
+      
+        
+        
+    }
 
 }
 
@@ -120,7 +123,6 @@ figure.gitImage img {width: 100%; float: right;}
  
 
 
-
 /* ------------------------ABOUT ME----------------------------- */
 
 .main-1 {
@@ -133,7 +135,7 @@ margin: 50px;
 
 h1 {
 float: left; 
-margin: 40px 10px; 
+margin: 40px 25px; 
 font-size: 42px; 
 
 }
@@ -142,7 +144,7 @@ p {
 clear: both; 
 font-size: 24px; 
 line-height: 1.5; 
-margin-top: 25px; 
+margin: 25px; 
 text-align: left; 
 
 .Me {
@@ -155,48 +157,73 @@ margin: 0px 10px;
 }
 
 
-.gitImage {
-    clear: both; 
-    float: left; 
-    margin: 0px 10px; 
-    
-    
-    
-    }
 
-
-
-    .unitImage {
-        clear: both; 
-        float: right; 
-        margin: 0px 10px; 
-        
-        
-        
-        }
-
-    
-        .tsImage {
-            clear: both; 
-            float: right; 
-            margin: 0px 10px; 
-            border: 1px solid grey; 
-            
-            
-            }
-    
-
-            
-        .npmImage {
-            clear: both; 
-            float: left; 
-            margin: 0px 10px;
-          
-            
-            }
-    
+  
 
 }
+
+
+figure.svelteImage {width: 100%;}
+figure.svelteImage img {width: 100%;}
+ 
+
+figure.npmImage {width: 100%;}
+figure.npmImage img {width: 100%;}
+ 
+
+
+
+figure.tsImage {width: 100%;}
+figure.tsImage img {width: 100%;}
+ 
+
+
+figure.unitImage {width: 100%;}
+figure.unitImage img {width: 100%;}
+ 
+
+
+
+figure.gitImage {width: 100%;}
+figure.gitImage img {width: 100%;}
+
+
+figure.rlImage {width: 100%;}
+figure.rlImage img {width: 100%;}
+ 
+ 
+
+
+.row { 
+    max-width: 650px; 
+  
+  }
+  
+  .column{
+    -webkit-column-gap: normal; /* Chrome, Safari, Opera */
+    -moz-column-gap: normal; /* Firefox */
+    
+   
+  }
+  
+  @for $i from 1 through 12 {
+      $w: ($i / 12) * 100%;
+   .sm-#{$i} {width: $w; float: left;}
+      
+   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
 
 }
 

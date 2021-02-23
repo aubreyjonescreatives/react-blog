@@ -6,6 +6,7 @@ import Git from './Git'
 import UnitTesting from './UnitTesting'
 import TypeScript from './TypeScript'
 import NPM from './NPM'
+import Svelte from './Svelte'
 import TopNavigation from './TopNavigation'
 import Header from './Header'
 
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
     <Header/>
     <TopNavigation/>
+    <Svelte/>
     <NPM/>
     <TypeScript/>
     <UnitTesting/>

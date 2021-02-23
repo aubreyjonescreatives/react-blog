@@ -9,8 +9,8 @@ function ResearchandLearning() {
      
      <div class="main-1" id="researchandlearning">
     <h1>RESEARCH AND LEARNING</h1>
-    <figure class="images"><img src={researchImage} alt="Research"></img></figure>
-     <p>
+   
+     <p> <figure class="rlImage"><img src={researchImage} alt="Research"></img></figure>
       When I get stuck on a project, I first research my favorite web programming websites online for answers to my problems. I don't like 
       to copy code, especially from tutorials because I often don't find exactly what I am looking for, and design my pages differently. 
       My favorite websites for example code are W3 Schools and MDN. I prefer frameworks such as Material UI and Bootstrap, but I still end up 

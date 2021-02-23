@@ -88,8 +88,8 @@ html {
   box-sizing: border-box; }
 
 /* -----------------------BODY ------------------------------- */
-header, nav, main, footer {
-  max-width: 1500px;
+header, nav, .main-1, footer {
+  max-width: 640px;
   font-family: "lato"; }
 
 body {
@@ -116,23 +116,24 @@ Nav {
   top: 70px;
   width: 100%;
   background-color: #429EA6;
-  height: 50px; }
+  height: 70px; }
   Nav li {
     float: left;
     text-decoration: none;
     list-style-type: none;
-    width: 15%;
-    padding: 15px 5px;
-    color: #ffffff; }
+    width: 14%;
+    padding: 20px 1px 20px 1px;
+    color: #ffffff;
+    font-size: 12px; }
     Nav li a:link {
       text-decoration: none;
       color: #ffffff; }
-    Nav li a:hover {
-      background-color: #4B0082;
-      width: 100%;
-      padding: 15px 5px; }
     Nav li a:visited {
       color: #ffffff; }
+  Nav li a:hover {
+    background-color: #4B0082;
+    width: 100%;
+    padding: 20px 1px 20px 1px; }
 
 /* ------------------------MAIN----------------------------- */
 figure.images {
@@ -155,35 +156,85 @@ figure.gitImage img {
     padding: 50px; }
   .main-1 h1 {
     float: left;
-    margin: 40px 10px;
+    margin: 40px 25px;
     font-size: 42px; }
   .main-1 p {
     clear: both;
     font-size: 24px;
     line-height: 1.5;
-    margin-top: 25px;
+    margin: 25px;
     text-align: left; }
     .main-1 p .Me {
       clear: both;
       float: left;
       margin: 0px 10px; }
-    .main-1 p .gitImage {
-      clear: both;
-      float: left;
-      margin: 0px 10px; }
-    .main-1 p .unitImage {
-      clear: both;
-      float: right;
-      margin: 0px 10px; }
-    .main-1 p .tsImage {
-      clear: both;
-      float: right;
-      margin: 0px 10px;
-      border: 1px solid grey; }
-    .main-1 p .npmImage {
-      clear: both;
-      float: left;
-      margin: 0px 10px; }
+  .main-1 figure.svelteImage {
+    width: 100%; }
+  .main-1 figure.svelteImage img {
+    width: 100%; }
+  .main-1 figure.npmImage {
+    width: 100%; }
+  .main-1 figure.npmImage img {
+    width: 100%; }
+  .main-1 figure.tsImage {
+    width: 100%; }
+  .main-1 figure.tsImage img {
+    width: 100%; }
+  .main-1 figure.unitImage {
+    width: 100%; }
+  .main-1 figure.unitImage img {
+    width: 100%; }
+  .main-1 figure.gitImage {
+    width: 100%; }
+  .main-1 figure.gitImage img {
+    width: 100%; }
+  .main-1 figure.rlImage {
+    width: 100%; }
+  .main-1 figure.rlImage img {
+    width: 100%; }
+  .main-1 .row {
+    max-width: 650px; }
+  .main-1 .column {
+    -webkit-column-gap: normal;
+    /* Chrome, Safari, Opera */
+    -moz-column-gap: normal;
+    /* Firefox */ }
+  .main-1 .sm-1 {
+    width: 8.3333333333%;
+    float: left; }
+  .main-1 .sm-2 {
+    width: 16.6666666667%;
+    float: left; }
+  .main-1 .sm-3 {
+    width: 25%;
+    float: left; }
+  .main-1 .sm-4 {
+    width: 33.3333333333%;
+    float: left; }
+  .main-1 .sm-5 {
+    width: 41.6666666667%;
+    float: left; }
+  .main-1 .sm-6 {
+    width: 50%;
+    float: left; }
+  .main-1 .sm-7 {
+    width: 58.3333333333%;
+    float: left; }
+  .main-1 .sm-8 {
+    width: 66.6666666667%;
+    float: left; }
+  .main-1 .sm-9 {
+    width: 75%;
+    float: left; }
+  .main-1 .sm-10 {
+    width: 83.3333333333%;
+    float: left; }
+  .main-1 .sm-11 {
+    width: 91.6666666667%;
+    float: left; }
+  .main-1 .sm-12 {
+    width: 100%;
+    float: left; }
 
 /* ------------------------FOOTER----------------------------- */
 div#wrapperFooter {
@@ -214,61 +265,97 @@ footer {
   display: table; }
 
 @media only screen and (min-width: 600px) {
-  nav, main {
+  header, nav, .main-1 {
     max-width: 1800px;
     margin: 0 auto; }
 
   /* ------------------------HEADER----------------------------- */
+  header {
+    background-color: #ffffff;
+    width: 100%; }
+
   /* ------------------------NAV----------------------------- */
   /*-------------------- MAIN ------------------------------ */
-  main {
+  .main-1 {
     /* ------------------------Column----------------------------- */ }
-    main figure.myImage {
+    .main-1 figure.svelteImage {
       width: 100%; }
-    main figure.myImage img {
-      width: 33%;
-      padding: 10px; }
-    main .row {
+    .main-1 figure.svelteImage img {
+      width: 47%;
+      margin: 10px;
+      float: left; }
+    .main-1 figure.npmImage {
+      width: 100%; }
+    .main-1 figure.npmImage img {
+      width: 47%;
+      margin: 10px;
+      float: right; }
+    .main-1 figure.tsImage {
+      width: 100%; }
+    .main-1 figure.tsImage img {
+      width: 47%;
+      margin: 10px;
+      float: left;
+      border: 1px solid #4B0082; }
+    .main-1 figure.unitImage {
+      width: 100%; }
+    .main-1 figure.unitImage img {
+      width: 47%;
+      margin: 10px;
+      float: right; }
+    .main-1 figure.gitImage {
+      width: 100%; }
+    .main-1 figure.gitImage img {
+      width: 47%;
+      margin: 10px;
+      float: left; }
+    .main-1 figure.rlImage {
+      width: 100%; }
+    .main-1 figure.rlImage img {
+      width: 47%;
+      margin: 10px;
+      float: right; }
+    .main-1 .row {
       max-width: 1800px; }
-    main .column {
+    .main-1 .column {
       -webkit-column-gap: normal;
       /* Chrome, Safari, Opera */
       -moz-column-gap: normal;
       /* Firefox */ }
-    main .md-1 {
+    .main-1 .md-1 {
       width: 8.3333333333%;
       float: left; }
-    main .md-2 {
+    .main-1 .md-2 {
       width: 16.6666666667%;
       float: left; }
-    main .md-3 {
+    .main-1 .md-3 {
       width: 25%;
       float: left; }
-    main .md-4 {
+    .main-1 .md-4 {
       width: 33.3333333333%;
       float: left; }
-    main .md-5 {
+    .main-1 .md-5 {
       width: 41.6666666667%;
       float: left; }
-    main .md-6 {
+    .main-1 .md-6 {
       width: 50%;
       float: left; }
-    main .md-7 {
+    .main-1 .md-7 {
       width: 58.3333333333%;
       float: left; }
-    main .md-8 {
+    .main-1 .md-8 {
       width: 66.6666666667%;
       float: left; }
-    main .md-9 {
+    .main-1 .md-9 {
       width: 75%;
       float: left; }
-    main .md-10 {
+    .main-1 .md-10 {
       width: 83.3333333333%;
       float: left; }
-    main .md-11 {
+    .main-1 .md-11 {
       width: 91.6666666667%;
       float: left; }
-    main .md-12 {
+    .main-1 .md-12 {
       width: 100%;
       float: left; }
 
@@ -313,76 +400,81 @@ footer {
 /* end media query */
 @media only screen and (min-width: 1024px) and (max-width: 1024px) {
   /* -----------------------BODY ------------------------------- */
-  main, footer {
+  header, nav, .main-1, footer {
+    max-width: 2400px;
     margin: 0 auto; }
 
   /*-------------------- HEADER ------------------------------ */
+  header {
+    width: 100%;
+    background-color: #ffffff; }
+
   /*-------------------- NAV ------------------------------ */
   #navWrapper {
     background-color: #4B0082; }
 
   /*-------------------- MAIN ------------------------------ */
-  main {
+  .main-1 {
     /* ------------------------Column----------------------------- */ }
-    main #headerWrapper {
+    .main-1 #headerWrapper {
       background-color: #4B0082; }
-    main .headerMotto {
+    .main-1 .headerMotto {
       clear: both;
       width: 100%;
       text-align: center;
       height: 850px; }
-    main figure.bookcoverimage {
+    .main-1 figure.bookcoverimage {
       width: 100%;
       margin: 0 auto; }
-    main figure.bookcoverimage img {
+    .main-1 figure.bookcoverimage img {
       width: 100%; }
-    main figure.myImage {
+    .main-1 figure.myImage {
       width: 100%; }
-    main figure.myImage img {
+    .main-1 figure.myImage img {
       width: 25%;
       float: right;
       padding: 10px; }
-    main .row {
+    .main-1 .row {
       max-width: 1800px; }
-    main .column {
+    .main-1 .column {
       -webkit-column-gap: normal;
       /* Chrome, Safari, Opera */
       -moz-column-gap: normal;
       /* Firefox */ }
-    main .lg-1 {
+    .main-1 .lg-1 {
       width: 8.3333333333%;
       float: left; }
-    main .lg-2 {
+    .main-1 .lg-2 {
       width: 16.6666666667%;
       float: left; }
-    main .lg-3 {
+    .main-1 .lg-3 {
       width: 25%;
       float: left; }
-    main .lg-4 {
+    .main-1 .lg-4 {
       width: 33.3333333333%;
       float: left; }
-    main .lg-5 {
+    .main-1 .lg-5 {
       width: 41.6666666667%;
       float: left; }
-    main .lg-6 {
+    .main-1 .lg-6 {
       width: 50%;
       float: left; }
-    main .lg-7 {
+    .main-1 .lg-7 {
       width: 58.3333333333%;
       float: left; }
-    main .lg-8 {
+    .main-1 .lg-8 {
       width: 66.6666666667%;
       float: left; }
-    main .lg-9 {
+    .main-1 .lg-9 {
       width: 75%;
       float: left; }
-    main .lg-10 {
+    .main-1 .lg-10 {
       width: 83.3333333333%;
       float: left; }
-    main .lg-11 {
+    .main-1 .lg-11 {
       width: 91.6666666667%;
       float: left; }
-    main .lg-12 {
+    .main-1 .lg-12 {
       width: 100%;
       float: left; }
 
