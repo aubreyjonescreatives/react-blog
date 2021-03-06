@@ -8,7 +8,6 @@ function Svelte() {
     return (
 
      <div class="main-1" id="svelte">
-       <div className="EmptyTop"></div>
     <h1>Svelte</h1>
      <p><figure className="svelteImage"> <img src={svelteImage} alt="Svelte"></img></figure>
       It is interesting how React.js becomes problematic while working with the virtual DOM libraries. 

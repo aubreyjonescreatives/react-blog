@@ -7,6 +7,7 @@ import UnitTesting from './UnitTesting'
 import TypeScript from './TypeScript'
 import NPM from './NPM'
 import Svelte from './Svelte'
+import FunctionsCallbacksPromises from './FunctionsCallbacksPromises'
 import TopNavigation from './TopNavigation'
 import Header from './Header'
 
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
     <Header/>
     <TopNavigation/>
+    <FunctionsCallbacksPromises/>
     <Svelte/>
     <NPM/>
     <TypeScript/>

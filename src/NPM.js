@@ -8,7 +8,6 @@ function npm() {
     return (
 
      <div class="main-1" id="npm">
-       <div className="EmptyTop"></div>
     <h1>NPM</h1>
      <p><figure className="npmImage"> <img src={npmImage} alt="NPM"></img></figure>
      What is NPM? It is an acronym that stands for node package management. It is a command-line utility that 

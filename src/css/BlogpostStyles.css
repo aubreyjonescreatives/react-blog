@@ -121,7 +121,7 @@ Nav {
     float: left;
     text-decoration: none;
     list-style-type: none;
-    width: 14%;
+    width: 12%;
     padding: 20px 1px 20px 1px;
     color: #ffffff;
     font-size: 12px; }
@@ -153,6 +153,7 @@ figure.gitImage img {
 .main-1 {
   margin: 50px; }
   .main-1 .EmptyTop {
+    margin-top: 50px;
     padding: 50px; }
   .main-1 h1 {
     float: left;

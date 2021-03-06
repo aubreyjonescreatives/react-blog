@@ -8,6 +8,7 @@ function TopNavigation() {
     return (
      
       <nav className="Nav">
+          <li><a href="#functionscallbackspromises">PROMISES</a></li>
         <li><a href="#svelte">SVELTE</a></li>
           <li><a href="#npm">NPM</a></li> 
            <li><a href="#typescript">TYPESCRIPT</a></li> 
