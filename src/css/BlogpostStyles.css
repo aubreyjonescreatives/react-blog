@@ -149,6 +149,14 @@ figure.gitImage img {
   width: 100%;
   float: right; }
 
+figure.functionImage {
+  width: 100%; }
+
+figure.functionImage img {
+  width: 50%;
+  display: block;
+  margin: auto; }
+
 /* ------------------------ABOUT ME----------------------------- */
 .main-1 {
   margin: 50px; }
