@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/BlogpostStyles.css'
-import promisesImage from './images/promisesImage.PNG'
+import functionsImage from './images/functions.PNG'
 
 
 
@@ -10,16 +10,21 @@ function FunctionsCallbacksPromises() {
      <div class="main-1" id="functionscallbackspromises">
        <div className="EmptyTop"></div>
     <h1>Functions, Callbacks, and Promises</h1>
-     <p><figure className="svelteImage"> <img src={promisesImage} alt="promises"></img></figure>
-     How do you declare a function? You can declare a function by several different methods. It can depend upon 
-     function name keyword location. For example, one function can begin with the the syntax: function functionName() 
-     and another example can begin with: functionName = function(). The syntax is so similar. So how are they different?
+     <p>
+     How do you declare a function? You can declare a function by several different methods. It can depend upon the 
+     function's title keyword location. For example, one function can begin with the the syntax: function functionName() 
+     such as in the following image:<p>
+       <figure className="functionImage"><img src={functionsImage} alt="functions"></img></figure></p>
+     and another example can begin with: functionName = function() as shown below: 
+     
+     
+      The syntax is so similar. So how are they different?
      Let's add a parser to both examples. The first example would pass the parser functionName() first, while the second 
      method would accept the parser functionName() last. This would effect response times for the program to accept 
-     functions. A third style to declaring a function adds parameters to its functions. Function parameters belong inside 
-     the first set of parenthesis after the function name. For example, they look like this: 
-     function functionName(parameter1, parameter2). Function parameters alter the function's process, as it has to 
-     take a look at the parameters throughout the function. 
+     functions. A third style to declaring a function adds arguments to its parameter. Function parameters are the 
+     first set of parenthesis after the function name. For example, they look like this: 
+     function functionName(argument1, argument2). Function arguments alter the function's process, as it has to 
+     take a look at the arguments throughout the function. 
      <p>If you want to return a value of a function, you'll have to first define either variables or parameters. You can 
        return a function within a function by simply stating the syntax: return: var. This allows functions to 
        process requests. A return request can have the syntax such as return: x + y.   
@@ -45,8 +50,36 @@ function FunctionsCallbacksPromises() {
        It becomes quite clear that Svelte introduces the best user experience as opposed to React and Vue.  
      </p>
      </div>
+
+
+
+
+
+
     );
+ 
+  
+
+
+    
+
   }
+
+
+
+
+  function functionTitle(argument1, argument2){
+     
+    return argument1 + argument2
+  }
+  console.log(functionTitle())
+
+
+
+
+
+
+
   
   export default FunctionsCallbacksPromises;
   
