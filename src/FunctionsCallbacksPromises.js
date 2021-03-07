@@ -10,19 +10,6 @@ import returnImage from './images/return.PNG'
 
 
 
-async function functionTitle() {
-let value = new Promise((resolve, reject) => {
-  setTimeout(() => resolve("Timer is Done!"), 5000)
-}); 
-
-let result = await value; 
-
-alert(result)
-
-
-}
-functionTitle()
-
 
 
 
