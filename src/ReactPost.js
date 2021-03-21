@@ -10,7 +10,7 @@ function ReactPost() {
      <div class="main-1" id="reactpost">
         <div className="EmptyTop"></div>
     <h1>React</h1>
-     <p><figure className="reactImage"> <img src={reactImage} alt="React Image"></img></figure>
+     <p><figure className="reactImage"> <img src={reactImage} alt="React"></img></figure>
      What is React? React is a JavaScript library created by Jordan Walke while he was working for 
      Facebook. It is for creating a simple and fast user interface for large web applications. In  
      React, we use state. So what is state? State is the React hook that displays the current visual 
