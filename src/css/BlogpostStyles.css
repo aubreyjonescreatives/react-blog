@@ -121,7 +121,7 @@ Nav {
     float: left;
     text-decoration: none;
     list-style-type: none;
-    width: 12%;
+    width: 10%;
     padding: 20px 1px 20px 1px;
     color: #ffffff;
     font-size: 12px; }
@@ -192,6 +192,10 @@ figure.functionImage img {
   .main-1 figure.unitImage {
     width: 100%; }
   .main-1 figure.unitImage img {
+    width: 100%; }
+  .main-1 figure.reactImage {
+    width: 100%; }
+  .main-1 figure.reactImage img {
     width: 100%; }
   .main-1 figure.gitImage {
     width: 100%; }
@@ -312,6 +316,12 @@ footer {
     .main-1 figure.unitImage {
       width: 100%; }
     .main-1 figure.unitImage img {
+      width: 47%;
+      margin: 10px;
+      float: right; }
+    .main-1 figure.reactImage {
+      width: 100%; }
+    .main-1 figure.reactImage img {
       width: 47%;
       margin: 10px;
       float: right; }

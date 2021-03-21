@@ -22,7 +22,6 @@ function FunctionsCallbacksPromises() {
 
 
      <div class="main-1" id="functionscallbackspromises">
-       <div className="EmptyTop"></div>
     <h1>Functions, Callbacks, and Promises</h1>
      <p>
      How do you declare a function? Why is it important to declare a function? You can accomplish this in several 

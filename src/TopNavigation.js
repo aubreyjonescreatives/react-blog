@@ -8,6 +8,7 @@ function TopNavigation() {
     return (
      
       <nav className="Nav">
+          <li><a href="#reactpost">REACT BLOG</a></li>
           <li><a href="#functionscallbackspromises">PROMISES</a></li>
         <li><a href="#svelte">SVELTE</a></li>
           <li><a href="#npm">NPM</a></li> 
